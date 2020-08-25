@@ -52,7 +52,7 @@ body, html {
   }
       
   .myDIV:hover + .hide {
-    display: block;
+    display: inline-block;
   }
 
 /* Turn off parallax scrolling for tablets and phones */
@@ -63,6 +63,18 @@ body, html {
   }
 }
 
+img {
+  width: 175px; 
+  height: 125px;
+}
+
 .w3-card-4{
   margin: 5px;
+  object-position: center;
+  align-items: center;
+  /* display: inline-grid; */
+}
+
+.w3-row-padding{
+
 }
