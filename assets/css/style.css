@@ -62,3 +62,7 @@ body, html {
     min-height: 400px;
   }
 }
+
+.w3-card-4{
+  margin: 5px;
+}
