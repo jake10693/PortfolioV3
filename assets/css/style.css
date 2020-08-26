@@ -42,8 +42,13 @@ body, html {
   min-height: 400px;
 }
 
-.w3-wide {letter-spacing: 10px;}
-.w3-hover-opacity {cursor: pointer;}
+.w3-wide {
+  letter-spacing: 10px;
+}
+
+.w3-hover-opacity {
+  cursor: pointer;
+}
 
 
 /* Hover effect to show information on hover */
@@ -65,4 +70,9 @@ body, html {
 
 .w3-card-4{
   margin: 5px;
+}
+
+img{
+  height: 125px;
+  width: 175px;
 }
