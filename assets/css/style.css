@@ -13,6 +13,11 @@ body, html {
   background-size: cover;
 }
 
+/* .bgimg {
+  position: absolute;
+z-index: -1;
+} */
+
 /* First image (Logo. Full height) */
 .bgimg-1 {
   background-image: url("https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1504&q=80");
@@ -51,28 +56,46 @@ body, html {
 }
 
 
-/* Hover effect to show information on hover */
-.hide {
-    display: none;
-  }
-      
-  .myDIV:hover + .hide {
-    display: block;
-  }
 
 /* Turn off parallax scrolling for tablets and phones */
 @media only screen and (max-device-width: 1600px) {
-   .bgimg-2 {
+  .bgimg-2 {
     background-attachment: scroll;
     min-height: 400px;
   }
-}
-
-.w3-card-4{
-  margin: 5px;
 }
 
 img{
   height: 125px;
   width: 175px;
 }
+
+.w3-card-4:hover {
+  margin: 3rem;
+  /* z-index: 1000; */
+}
+
+.w3-card-4 {
+  margin: 2rem;
+  
+}
+
+/* Hover effect to show information on hover */
+.hide {
+    display: none;
+  }
+      
+  .myDIV:hover + .hide {
+    display: inline-block;
+    /* z-index: 1000; */
+  }
+
+  .hide:hover {
+    display: inline-block;
+    /* z-index: 1000; */
+  }
+
+/* #portfolio {
+  position: relative;
+z-index: 1000;
+} */
