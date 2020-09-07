@@ -5,6 +5,10 @@ body, html {
   line-height: 1.8;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 /* Create a Parallax Effect */
 .bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4, .bgimg-5 {
   background-attachment: fixed;
