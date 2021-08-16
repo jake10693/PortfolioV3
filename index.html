@@ -7,348 +7,388 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" href="./assets/css/style.css">
+
 <body>
 
-<!-- Navbar (sit on top) -->
-<div class="w3-top">
-  <div class="w3-bar" id="myNavbar">
-    <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
-      <i class="fa fa-bars"></i>
-    </a>
-    <a href="#home" class="w3-bar-item w3-button">HOME</a>
-    <a href="#about" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-user"></i> ABOUT</a>
-    <a href="#portfolio" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-th"></i> PORTFOLIO</a>
-    <a href="#contact" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-envelope"></i> CONTACT</a>
-    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-red">
-      <i class="fa fa-search"></i>
-    </a>
-  </div>
-  <a href=""></a>
+  <!-- Navbar (sit on top) -->
+  <div class="w3-top">
+    <div class="w3-bar" id="myNavbar">
+      <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);"
+        onclick="toggleFunction()" title="Toggle Navigation Menu">
+        <i class="fa fa-bars"></i>
+      </a>
+      <a href="#home" class="w3-bar-item w3-button">HOME</a>
+      <a href="#about" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-user"></i> ABOUT</a>
+      <a href="#portfolio" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-th"></i> PORTFOLIO</a>
+      <a href="#contact" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-envelope"></i> CONTACT</a>
+      <a href="#" class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-red">
+        <i class="fa fa-search"></i>
+      </a>
+    </div>
+    <a href=""></a>
 
-  <!-- Navbar on small screens -->
-  <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
-    <a href="#about" class="w3-bar-item w3-button" onclick="toggleFunction()">ABOUT</a>
-    <a href="#portfolio" class="w3-bar-item w3-button" onclick="toggleFunction()">PORTFOLIO</a>
-    <a href="#contact" class="w3-bar-item w3-button" onclick="toggleFunction()">CONTACT</a>
-    <a href="#" class="w3-bar-item w3-button">SEARCH</a>
-    <meta name="apple-mobile-web-app-capable" content="yes">
+    <!-- Navbar on small screens -->
+    <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
+      <a href="#about" class="w3-bar-item w3-button" onclick="toggleFunction()">ABOUT</a>
+      <a href="#portfolio" class="w3-bar-item w3-button" onclick="toggleFunction()">PORTFOLIO</a>
+      <a href="#contact" class="w3-bar-item w3-button" onclick="toggleFunction()">CONTACT</a>
+      <a href="#" class="w3-bar-item w3-button">SEARCH</a>
+      <meta name="apple-mobile-web-app-capable" content="yes">
+    </div>
   </div>
-</div>
 
-<!-- First Parallax Image with Logo Text -->
-<div class="bgimg-2 w3-display-container w3-opacity-min" id="home">
-  <div class="w3-display-middle" style="white-space:nowrap;">
-    <span class="w3-center w3-padding-large w3-black w3-xlarge w3-wide w3-animate-opacity">WEB <span class="w3-hide-small"></span> DEVELOPER</span>
-    
-  </div>
-</div>
+  <!-- First Parallax Image with Logo Text -->
+  <div class="bgimg-2 w3-display-container w3-opacity-min" id="home">
+    <div class="w3-display-middle" style="white-space:nowrap;">
+      <span class="w3-center w3-padding-large w3-black w3-xlarge w3-wide w3-animate-opacity">WEB <span
+          class="w3-hide-small"></span> DEVELOPER</span>
 
-<!-- Container (About Section) -->
-<div class="w3-content w3-container w3-padding-64" id="about">
-  <h3 class="w3-center">ABOUT ME</h3>
-  <p class="w3-center"><em>I love technology</em></p>
-  <p id="text">Hello, I am a test-driven web developer and automation engineer with a passion for solving 
-    problems and the ambition to change the world for the better. Though I prefer programming the front-end 
-    and SQA-automation, I am versed in the complexity of full-stack web development. I currently work 
-    full-time in a technical support (engineer) role for a young but very successful company called Intellaegis, 
-    I'm also working part-time as instructional staff for a full-stack web development bootcamp through Trilogy Ed 
-    (which was recently bought out by 2U Education Services). When I'm not working though, I have my own passion projects
-    that I enjoy working on as well, check them out below! </p>
-  <div class="w3-row">
-    <div class="w3-col m6 w3-center w3-padding-large">
-      <p><b><i class="fa fa-user w3-margin-right"></i>Jacob Kenton Carver</b></p><br>
-      <img src="./assets/aboutme.png" class="w3-round w3-image w3-opacity w3-hover-opacity-off" alt="Photo of Me" height="275" width="360">
     </div>
+  </div>
 
-    <!-- Hide this text on small devices -->
-    <div class="w3-col m6 w3-hide-small w3-padding-large">
-      <p>Welcome to my portfolio! You can check all of my work below. My projects are organized by category and are all web based applications; from top to bottom the sections are divided into: </p>
-      <ol>
-        <li>FRONT-END</li>
-        <ul>
-          <li>Web Apps</li>
-          <!-- <li>Games</li> -->
-        </ul>
-        <li>Automation</li>
-        <ul>
-          <li>bots</li>
-          <!-- <li>Games</li> -->
-        </ul>
-      </ol>
-    </div>
-  </div>
-  <p class="w3-large w3-center w3-padding-16">Here is an estimated balance of how my time spent coding is divided on average by category (averaging about 40 hours weekly).</p>
-  <div class="w3-light-grey">
-    <p class="w3-wide"><i class="fa fa-laptop"></i>Selenium Scripting</p>
-    <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:35%">35%</div>
-  </div>
-  <div class="w3-light-grey">
-    <p class="w3-wide"><i class="fa fa-laptop"></i>React</p>
-    <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:25%">25%</div>
-  </div>
-  <div class="w3-light-grey">
-    <p class="w3-wide"><i class="fa fa-camera"></i>HTML/CSS</p>
-    <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:15%">15%</div>
-  </div>
-  <div class="w3-light-grey">
-    <p class="w3-wide"><i class="fa fa-laptop"></i>JS/Node.js</p>
-    <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:25%">25%</div>
-  </div>
-</div>
+  <!-- Container (About Section) -->
+  <div class="w3-content w3-container w3-padding-64" id="about">
+    <h3 class="w3-center">ABOUT ME</h3>
+    <p class="w3-center"><em>I love technology</em></p>
+    <p id="text">Hello, I am a test-driven web developer and automation engineer with a passion for solving
+      problems and the ambition to change the world for the better. Though I prefer programming the front-end
+      and SQA-automation, I am versed in the complexity of full-stack web development. I currently work
+      full-time in a technical support (engineer) role for a young but very successful company called Intellaegis,
+      I'm also working part-time as instructional staff for a full-stack web development bootcamp through Trilogy Ed
+      (which was recently bought out by 2U Education Services). When I'm not working though, I have my own passion
+      projects
+      that I enjoy working on as well, check them out below! </p>
+    <div class="w3-row">
+      <div class="w3-col m6 w3-center w3-padding-large">
+        <p><b><i class="fa fa-user w3-margin-right"></i>Jacob Kenton Carver</b></p><br>
+        <img src="./assets/aboutme.png" class="w3-round w3-image w3-opacity w3-hover-opacity-off" alt="Photo of Me"
+          height="275" width="360">
+      </div>
 
-<div class="w3-row w3-center w3-dark-grey w3-padding-16">
-  <div class="w3-quarter w3-section">
-    <span class="w3-xlarge">1+</span><br>
-    Certifications
+      <!-- Hide this text on small devices -->
+      <div class="w3-col m6 w3-hide-small w3-padding-large">
+        <p>Welcome to my portfolio! You can check all of my work below. My projects are organized by category and are
+          all web based applications; from top to bottom the sections are divided into: </p>
+        <ol>
+          <li>FRONT-END</li>
+          <ul>
+            <li>Web Apps</li>
+            <!-- <li>Games</li> -->
+          </ul>
+          <li>Automation</li>
+          <ul>
+            <li>bots</li>
+            <!-- <li>Games</li> -->
+          </ul>
+        </ol>
+      </div>
+    </div>
+    <p class="w3-large w3-center w3-padding-16">Here is an estimated balance of how my time spent coding and scripting
+      is divided on
+      average by category (averaging about 40 hours weekly).</p>
+    <div class="w3-light-grey">
+      <p class="w3-wide"><i class="fa fa-laptop"></i>Selenium</p>
+      <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:35%">35%</div>
+    </div>
+    <div class="w3-light-grey">
+      <p class="w3-wide"><i class="fa fa-laptop"></i>React</p>
+      <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:25%">25%</div>
+    </div>
+    <div class="w3-light-grey">
+      <p class="w3-wide"><i class="fa fa-camera"></i>HTML/CSS</p>
+      <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:15%">15%</div>
+    </div>
+    <div class="w3-light-grey">
+      <p class="w3-wide"><i class="fa fa-laptop"></i>JS/Node.js</p>
+      <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:25%">25%</div>
+    </div>
   </div>
-  <div class="w3-quarter w3-section">
-    <span class="w3-xlarge">14+</span><br>
-    Solo-Projects Done
-  </div>
-  <div class="w3-quarter w3-section">
-    <span class="w3-xlarge">3+</span><br>
-    Team-Projects Done
-  </div>
-  <div class="w3-quarter w3-section">
-    <span class="w3-xlarge">2+</span><br>
-    Years Experience
-  </div>
-  <div class="w3-quarter w3-section">
-    <span class="w3-xlarge">300+</span><br>
-    Tutorial Sessions Completed
-  </div>
-</div>
 
-<!-- Second Parallax Image with Portfolio Text -->
-<div class="bgimg-1 w3-display-container w3-opacity-min">
-  <div class="w3-display-middle" style="white-space:nowrap;">
-    <!-- <span class="w3-xxlarge w3-text-white w3-wide">FRONT-END</span> -->
-    <span class="w3-center w3-padding-large w3-black w3-xlarge w3-wide w3-animate-opacity">FRONT<span class="w3-hide-small"></span> END</span>
-  </div>
-</div>
-
-<!-- Container (Portfolio Section) -->
-<div class="w3-content w3-container w3-padding-64" id="portfolio">
-  <h3 class="w3-center">Web Apps</h3>
-  <p class="w3-center"><em>Here are some of my front-end web projects built with HTML5, CSS3 and JS.<br> Click on the images to make them bigger</em></p><br>
-  
-  <!-- Responsive Grid. Four columns on tablets, laptops and desktops. Will stack on mobile devices/small screens (100% width) -->
-  <div class="w3-row-padding w3-center">
-
-    <div class="w3-col m3 w3-card-4 w3-round-xlarge">
-      <div class="w3-container myDIV">
-        
-          <img src="./assets/tinified/Day-Planner.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Coffee beans">
-        
+  <div class="w3-row w3-center w3-dark-grey w3-padding-16">
+    <div class="w3-quarter w3-section">
+      <span class="w3-xlarge">1+</span><br>
+      Certifications
     </div>
-    <div class="w3-container hide w3-animate-zoom">
-      <p>Day-Planer is a simple web application that allows you to write in a daily task sheet that you can use to organize your work day. It will tell you the current hour based on the color of the rows and you can save and iedit your tasks and save your information by utilizing local storage, so your planner will stay the same when you come back to it the next day.</p>
-      <ul>
-        <h4>Tech used:</h4>
-        <li>Regular HTML</li>
-        <li>Plain CSS</li>
-        <li>Vanilla JavaScript</li>
-        <li>jQuery</li>
-      </ul>
-      <a href="https://jake10693.github.io/Day-Planner/"> <button class="w3-panel w3-blue w3-hover-opacity w3-animate-zoom">Launch</button></a>
+    <div class="w3-quarter w3-section">
+      <span class="w3-xlarge">14+</span><br>
+      Solo-Projects Done
     </div>
+    <div class="w3-quarter w3-section">
+      <span class="w3-xlarge">3+</span><br>
+      Team-Projects Done
     </div>
-    <div class="w3-col m3 w3-card-4 w3-round-xlarge">
-      <div class="w3-container myDIV">
-        
-          <img src="./assets/tinified/RandoPassGen.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Bear closeup">
-        
+    <div class="w3-quarter w3-section">
+      <span class="w3-xlarge">2+</span><br>
+      Years Experience
     </div>
-    <div class="w3-container hide w3-animate-zoom">
-      <p>RandoPassGen is a password generator that let's you adjust the size of a randomly generated password via a slider. The password will consisit of numbers, special characters, upper, and lower case letters.</p>
-      <ul>
-        <h4>Tech used:</h4>
-        <li>Regular HTML</li>
-        <li>Plain CSS</li>
-        <li>Vanilla JavaScript</li>
-      </ul>
-      <a href="https://jake10693.github.io/Random_password_Generator/"> <button class="w3-panel w3-blue w3-hover-opacity w3-animate-zoom">Launch</button></a>
-    </div>
-    </div>
-
-    <div class="w3-col m3 w3-card-4 w3-round-xlarge">
-      <div class="w3-container myDIV">
-        
-          <img src="./assets/tinified/Safety-Guru.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity">
-        
-    </div>
-    <div class="w3-container hide w3-animate-zoom">
-      <p>Safety-Guru is a website where people can look up any vehicle and find safety ratings and recall information. Unfortunately, one of the API's that made this application possible has recently been depricated. Don't worry though, a new project to replace this one is coming soon.</p>
-      <ul>
-        <h4>Tech used:</h4>
-        <li>Regular HTML</li>
-        <li>Plain CSS</li>
-        <li>Vanilla JavaScript</li>
-        <li>jQuery</li>
-        <li>AJAX</li>
-      </ul>
-      <a href="https://jake10693.github.io/Safety_Guru/"> <button class="w3-panel w3-blue w3-hover-opacity w3-animate-zoom">Launch</button></a>
-    </div>
+    <div class="w3-quarter w3-section">
+      <span class="w3-xlarge">300+</span><br>
+      Tutorial Sessions Completed
     </div>
   </div>
+
+  <!-- Second Parallax Image with Portfolio Text -->
+  <div class="bgimg-1 w3-display-container w3-opacity-min">
+    <div class="w3-display-middle" style="white-space:nowrap;">
+      <!-- <span class="w3-xxlarge w3-text-white w3-wide">FRONT-END</span> -->
+      <span class="w3-center w3-padding-large w3-black w3-xlarge w3-wide w3-animate-opacity">FRONT<span
+          class="w3-hide-small"></span> END</span>
+    </div>
+  </div>
+
+  <!-- Container (Portfolio Section) -->
+  <div class="w3-content w3-container w3-padding-64" id="portfolio">
+    <h3 class="w3-center">Web Apps</h3>
+    <p class="w3-center"><em>Here are some of my front-end web projects built with HTML5, CSS3 and JS.<br> Click on the
+        images to make them bigger</em></p><br>
+
+    <!-- Responsive Grid. Four columns on tablets, laptops and desktops. Will stack on mobile devices/small screens (100% width) -->
+    <div class="w3-row-padding w3-center">
+
+      <div class="w3-col m3 w3-card-4 w3-round-xlarge">
+        <div class="w3-container myDIV">
+
+          <img src="./assets/tinified/Day-Planner.png" style="width:100%" onclick="onClick(this)"
+            class="w3-hover-opacity" alt="Coffee beans">
+
+        </div>
+        <div class="w3-container hide w3-animate-zoom">
+          <p>Day-Planer is a simple web application that allows you to write in a daily task sheet that you can use to
+            organize your work day. It will tell you the current hour based on the color of the rows and you can save
+            and iedit your tasks and save your information by utilizing local storage, so your planner will stay the
+            same when you come back to it the next day.</p>
+          <ul>
+            <h4>Tech used:</h4>
+            <li>Regular HTML</li>
+            <li>Plain CSS</li>
+            <li>Vanilla JavaScript</li>
+            <li>jQuery</li>
+          </ul>
+          <a href="https://jake10693.github.io/Day-Planner/"> <button
+              class="w3-panel w3-blue w3-hover-opacity w3-animate-zoom">Launch</button></a>
+        </div>
+      </div>
+
+      <div class="w3-col m3 w3-card-4 w3-round-xlarge">
+        <div class="w3-container myDIV">
+          <img src="./assets/tinified/RandoPassGen.png" style="width:100%" onclick="onClick(this)"
+            class="w3-hover-opacity" alt="Bear closeup">
+        </div>
+        <div class="w3-container hide w3-animate-zoom">
+          <p>RandoPassGen is a password generator that let's you adjust the size of a randomly generated password via a
+            slider. The password will consisit of numbers, special characters, upper, and lower case letters.</p>
+          <ul>
+            <h4>Tech used:</h4>
+            <li>Regular HTML</li>
+            <li>Plain CSS</li>
+            <li>Vanilla JavaScript</li>
+          </ul>
+          <a href="https://jake10693.github.io/Random_password_Generator/"> <button
+              class="w3-panel w3-blue w3-hover-opacity w3-animate-zoom">Launch</button></a>
+        </div>
+      </div>
+
+      <div class="w3-col m3 w3-card-4 w3-round-xlarge">
+        <div class="w3-container myDIV">
+          <img src="./assets/tinified/EatDaBurger.png" style="width:100%" onclick="onClick(this)"
+            class="w3-hover-opacity">
+        </div>
+        <div class="w3-container hide w3-animate-zoom">
+          <p>Burger_Town_Library is a restaurant application that is meant to receive orders, mark orders created & mark
+            orders filled. This is a full stack ORM application using Node, MySQL & Handlebars.</p>
+          <ul>
+            <h4>Tech used:</h4>
+            <li>Selenium IDE</li>
+          </ul>
+          <a href="https://lit-falls-96504.herokuapp.com/"> <button
+              class="w3-panel w3-blue w3-hover-opacity w3-animate-zoom">Launch</button></a>
+        </div>
+      </div>
+    </div>
     <!-- <button class="w3-button w3-padding-large w3-light-grey" style="margin-top:64px">LOAD MORE</button> -->
   </div>
 
 
-</div> -->
-</div>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-
-<!-- Fourth Parallax Image with Portfolio Text -->
-<div class="bgimg-3 w3-display-container w3-opacity-min">
-  <div class="w3-display-middle">
-     <!-- <span class="w3-xxlarge w3-text-white w3-wide">FULL-STACK</span> -->
-    <span class="w3-center w3-padding-large w3-black w3-xlarge w3-wide w3-animate-opacity">WEB -<span class="w3-hide-small"></span>AUTOMATIONS</span>
+  </div> -->
   </div>
-</div>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
 
-<!-- Container (Portfolio Section) -->
-<div class="w3-content w3-container w3-padding-64" id="portfolio">
-  <h3 class="w3-center">Web Automations</h3>
-  <p class="w3-center"><em>Here are some of the automated bots that I've recently developed. <br> Keep in mind that these are highly valuable programs that I cannot just simply share the code for freely. So I apologize in advance for not sharing the code source for these projects without a scheduled video call.</em></p><br>
+  <!-- Fourth Parallax Image with Portfolio Text -->
+  <div class="bgimg-3 w3-display-container w3-opacity-min">
+    <div class="w3-display-middle">
+      <!-- <span class="w3-xxlarge w3-text-white w3-wide">FULL-STACK</span> -->
+      <span class="w3-center w3-padding-large w3-black w3-xlarge w3-wide w3-animate-opacity">WEB -<span
+          class="w3-hide-small"></span>AUTOMATIONS</span>
+    </div>
+  </div>
 
-  
-  <!-- Responsive Grid. Four columns on tablets, laptops and desktops. Will stack on mobile devices/small screens (100% width) -->
-  <div class="w3-row-padding w3-center">
-    <div class="w3-col m3 w3-card-4 w3-round-xlarge">
-      <div class="w3-container myDIV">
-        <h3>LinkedIn - Bot_1</h3>
-        <!-- Need to change the image from old fullstack app
-        to a generic photo of the selenium Icon here... -->
-          <img src="./assets/tinified/EatDaBurger.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity">
-        
-    </div>
-    <div class="w3-container hide w3-animate-zoom">
-      <p>Bot_1 is an automated connect-request-bot for LinkedIn. The connect-request-bot works by replicating the process of searching a category of users on LinkedIn and sending a connection-request to the first 8 users who show up in that search. This user process runs on a loop wich can be configured by the user to be run as many times as desired. This program acts as an automated self-marketing campaign and can be reconfigured for any web app with an available desktop-platform</p>
-      <ul>
-        <h4>Tech used:</h4>
-        <li>Selenium IDE</li>
-      </ul>
-      <a href="https://lit-falls-96504.herokuapp.com/"> <button class="w3-panel w3-blue w3-hover-opacity w3-animate-zoom">Launch</button></a>
-    </div>
-    </div>
-    
-    <div class="w3-col m3 w3-card-4 w3-round-xlarge">
-      <div class="w3-container myDIV">
-        <h3>LinkedIn - Bot_2</h3>
+  <!-- Container (Portfolio Section) -->
+  <div class="w3-content w3-container w3-padding-64" id="portfolio">
+    <h3 class="w3-center">Web Automations</h3>
+    <p class="w3-center"><em>These are some of my automated bots that I've recently developed. <br> Keep in mind that
+        these are highly valuable programs that I cannot just simply share the code for freely. So I apologize in
+        advance for not sharing the code source for these projects without a scheduled video call.</em></p><br>
+
+
+    <!-- Responsive Grid. Four columns on tablets, laptops and desktops. Will stack on mobile devices/small screens (100% width) -->
+    <div class="w3-row-padding w3-center">
+      <div class="w3-col m3 w3-card-4 w3-round-xlarge">
+        <div class="w3-container myDIV">
+          <h3>LinkedIn - Bot_1</h3>
           <!-- Need to change the image from old fullstack app
         to a generic photo of the selenium Icon here... -->
-          <img src="./assets/tinified/JS-Scheduler.png" style="width:100%"  class="w3-hover-opacity" alt="JS-Scheduler" >
-      
-    </div>
-    <div class="w3-container hide w3-animate-zoom">
-      <p>Bot_2 is an automated easy-apply-bot for LinkedIn. The easy-apply-bot works by replicating the user's process of apllying to jobs on LinkedIn and running that replication on a loop. The amount of times you decide to run the loop then determines the amount of applications you want to send out. This program acts as an automated self-marketing campaign and cannot currently be reconfigured for other web based platforms.</p>
-      <ul>
-        <h4>Tech used:</h4>
-        <li>Selenium IDE</li>
-      </ul>
-      <a href="https://whispering-fjord-97203.herokuapp.com/"> <button class="w3-panel w3-blue w3-hover-opacity w3-animate-zoom">Launch</button></a>
-    </div>
-    </div>
-
-    <div class="w3-col m3 w3-card-4 w3-round-xlarge">
-      <div class="w3-container myDIV">
-        <h3>Crypto-Trading-Bot</h3>
-              <!-- Need to change the image from old fullstack app
-        to a generic photo of the selenium Icon here... -->
-        <img src="./assets/Time-Card.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Time-Card">
-    </div>
-    <div class="w3-container hide w3-animate-zoom">
-      <p>The crypto-trading-bot is exactly what you think it is; a crypto market trading application that repeatedly scans a given crypto market value and depending on the value change with each scan, will either trigger a hold, sell or purchase of the given crypto market</p>
-      <ul>
-        <h4>Tech used:</h4>
-        <li>Selenium IDE</li>
-      </ul>
-      <a href="https://gentle-springs-48433.herokuapp.com/"> <button class="w3-panel w3-blue w3-hover-opacity w3-animate-zoom">Launch</button></a>
-    </div>
-  </div>
-  
- 
-</div>
-</div>
-
-
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>htr45eh456
-<br>
-
-<!-- Fifth Parallax Image with Portfolio Text -->
-<div class="bgimg-4 w3-display-container w3-opacity-min">
-  <div class="w3-display-middle">
- <!-- <span class="w3-xxlarge w3-text-white w3-wide">FULL-STACK</span> -->
- <span class="w3-center w3-padding-large w3-black w3-xlarge w3-wide w3-animate-opacity">CONTACT<span class="w3-hide-small"></span></span>
-  </div>
-</div>
-
-<!-- Container (Contact Section) -->
-<div class="w3-content w3-container w3-padding-64" id="contact">
-  <h3 class="w3-center">WHERE TO FIND ME</h3>
-  <p class="w3-center"><em>I'd love your feedback!</em></p>
-
-  <div class="w3-row w3-padding-32 w3-section">
-    <div class="w3-col m4 w3-container">
-      <img src="" class="w3-image w3-round" style="width:100%">
-    </div>
-    <div class="w3-col m8 w3-panel">
-      <div class="w3-large w3-margin-bottom">
-        <i class="fa fa-map-marker fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Sacramento, US<br>
-        <i class="fa fa-phone fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Phone: ‪(530) 830-2493‬<br>
-        <i class="fa fa-envelope fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Email: jaydevvs16@gmail.com<br>
-      </div>
-      <p>Swing by for a cup of <i class="fa fa-coffee"></i>, or leave me a note:</p>
-      <form action="/action_page.php" target="_blank">
-        <div class="w3-row-padding" style="margin:0 -16px 8px -16px">
-          <div class="w3-half">
-            <input class="w3-input w3-border" type="text" placeholder="Name" required name="Name">
-          </div>
-          <div class="w3-half">
-            <input class="w3-input w3-border" type="text" placeholder="Email" required name="Email">
-          </div>
+          <img src="./assets/tinified/SeleniumIconImage.png" style="width:100%" onclick="onClick(this)"
+            class="w3-hover-opacity">
         </div>
-        <input class="w3-input w3-border" type="text" placeholder="Message" required name="Message">
-        <button class="w3-button w3-black w3-right w3-section" type="submit">
-          <i class="fa fa-paper-plane"></i> SEND MESSAGE
-        </button>
-      </form>
+        <div class="w3-container hide w3-animate-zoom">
+          <p>Bot_1 is an automated connect-request-bot for LinkedIn. The connect-request-bot works by replicating the
+            process of searching a category of users on LinkedIn and sending a connection-request to the first 8 users
+            who show up in that search. This user process runs on a loop wich can be configured by the user to be run as
+            many times as desired. This program acts as an automated self-marketing campaign and can be reconfigured for
+            any web app with an available desktop-platform</p>
+          <ul>
+            <h4>Tech used:</h4>
+            <li>Selenium IDE</li>
+          </ul>
+          <!-- <a href="https://lit-falls-96504.herokuapp.com/">
+            <button class="w3-panel w3-blue w3-hover-opacity w3-animate-zoom">Launch</button>
+          </a> -->
+        </div>
+      </div>
+
+      <div class="w3-col m3 w3-card-4 w3-round-xlarge">
+        <div class="w3-container myDIV">
+          <h3>LinkedIn - Bot_2</h3>
+          <!-- Need to change the image from old fullstack app
+        to a generic photo of the selenium Icon here... -->
+          <img src="./assets/tinified/SeleniumIconImage.png" style="width:100%" class="w3-hover-opacity">
+        </div>
+        <div class="w3-container hide w3-animate-zoom">
+          <p>Bot_2 is an automated easy-apply-bot for LinkedIn. The easy-apply-bot works by replicating the user's
+            process of apllying to jobs on LinkedIn and running that replication on a loop. The amount of times you
+            decide to run the loop then determines the amount of applications you want to send out. This program acts as
+            an automated self-marketing campaign and cannot currently be reconfigured for other web based platforms.</p>
+          <ul>
+            <h4>Tech used:</h4>
+            <li>Selenium IDE</li>
+          </ul>
+          <!-- <a href="https://whispering-fjord-97203.herokuapp.com/">
+            <button class="w3-panel w3-blue w3-hover-opacity w3-animate-zoom">Launch</button>
+          </a> -->
+        </div>
+      </div>
+
+      <div class="w3-col m3 w3-card-4 w3-round-xlarge">
+        <div class="w3-container myDIV">
+          <h3>Trading-Bot</h3>
+          <!-- Need to change the image from old fullstack app
+        to a generic photo of the selenium Icon here... -->
+          <img src="./assets/tinified/SeleniumIconImage.png" style="width:100%" onclick="onClick(this)"
+            class="w3-hover-opacity">
+        </div>
+        <div class="w3-container hide w3-animate-zoom">
+          <p>The trading-bot is a crypto market trading application that repeatedly scans a given crypto market value
+            and depending on the value change with each scan, will either trigger a hold, sell or purchase of the given
+            crypto market</p>
+          <ul>
+            <h4>Tech used:</h4>
+            <li>Selenium IDE</li>
+          </ul>
+          <!-- <a href="https://gentle-springs-48433.herokuapp.com/">
+            <button class="w3-panel w3-blue w3-hover-opacity w3-animate-zoom">Launch</button>
+          </a> -->
+        </div>
+      </div>
+
+
     </div>
   </div>
-</div>
 
-<!-- Footer -->
-<footer class="w3-center w3-black w3-padding-64 w3-opacity w3-hover-opacity-off">
-  <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
-  <div class="w3-xlarge w3-section">
-    <i class="fa fa-facebook-official w3-hover-opacity"></i>
-    <i class="fa fa-instagram w3-hover-opacity"></i>
-    <i class="fa fa-snapchat w3-hover-opacity"></i>
-    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
-    <i class="fa fa-twitter w3-hover-opacity"></i>
-    <i class="fa fa-linkedin w3-hover-opacity"></i>
+
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+
+  <!-- Fifth Parallax Image with Portfolio Text -->
+  <div class="bgimg-4 w3-display-container w3-opacity-min">
+    <div class="w3-display-middle">
+      <!-- <span class="w3-xxlarge w3-text-white w3-wide">FULL-STACK</span> -->
+      <span class="w3-center w3-padding-large w3-black w3-xlarge w3-wide w3-animate-opacity">CONTACT<span
+          class="w3-hide-small"></span></span>
+    </div>
   </div>
-  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">JayDevWebServices</a></p>
-</footer>
- 
-<script src="./assets/js/script.js"></script>
+
+  <!-- Container (Contact Section) -->
+  <div class="w3-content w3-container w3-padding-64" id="contact">
+    <h3 class="w3-center">WHERE TO FIND ME</h3>
+    <p class="w3-center"><em>I'd love your feedback!</em></p>
+
+    <div class="w3-row w3-padding-32 w3-section">
+      <div class="w3-col m4 w3-container">
+        <img src="" class="w3-image w3-round" style="width:100%">
+      </div>
+      <div class="w3-col m8 w3-panel">
+        <div class="w3-large w3-margin-bottom">
+          <i class="fa fa-map-marker fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Roseville, CA<br>
+          <i class="fa fa-phone fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Phone: ‪(916) 533-6073<br>
+          <i class="fa fa-envelope fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Email:
+          jaydevvs16@gmail.com<br>
+        </div>
+        <p>Swing by for a cup of <i class="fa fa-coffee"></i>, or leave me a note:</p>
+        <form action="/action_page.php" target="_blank">
+          <div class="w3-row-padding" style="margin:0 -16px 8px -16px">
+            <div class="w3-half">
+              <input class="w3-input w3-border" type="text" placeholder="Name" required name="Name">
+            </div>
+            <div class="w3-half">
+              <input class="w3-input w3-border" type="text" placeholder="Email" required name="Email">
+            </div>
+          </div>
+          <input class="w3-input w3-border" type="text" placeholder="Message" required name="Message">
+          <button class="w3-button w3-black w3-right w3-section" type="submit">
+            <i class="fa fa-paper-plane"></i> SEND MESSAGE
+          </button>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="w3-center w3-black w3-padding-64 w3-opacity w3-hover-opacity-off">
+    <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+    <div class="w3-xlarge w3-section">
+      <i class="fa fa-facebook-official w3-hover-opacity"></i>
+      <i class="fa fa-instagram w3-hover-opacity"></i>
+      <i class="fa fa-snapchat w3-hover-opacity"></i>
+      <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+      <i class="fa fa-twitter w3-hover-opacity"></i>
+      <i class="fa fa-linkedin w3-hover-opacity"></i>
+    </div>
+    <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank"
+        class="w3-hover-text-green">JayDevWebServices</a></p>
+  </footer>
+
+  <!-- Note: when deploying, replace "development.js" with "production.min.js". -->
+  <script src="https://unpkg.com/react@17/umd/react.development.js" crossorigin></script>
+  <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js" crossorigin></script>
+  <!-- Load our React component. -->
+  <script src="./assets/js/script.js"></script>
 </body>
+
 </html>
